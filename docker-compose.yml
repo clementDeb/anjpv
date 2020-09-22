@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+   db:
+      image: mysql:8.0
+      container_name: mysql_JPV
+      restart: always
+      ports:
+       - '6603:3306'
+      environment:
+        MYSQL_ROOT_PASSWORD: Ve8vQ37uPv94HgT
+        MYSQL_DATABASE: DB_JPV
